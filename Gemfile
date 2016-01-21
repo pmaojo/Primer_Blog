@@ -37,7 +37,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use bootstrap for the frontend
 gem 'bootstrap-sass', '~> 3.3.6'
-
+# Use simple_form for form generation
+gem 'simple_form'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
