@@ -4,7 +4,7 @@ Bienvenido al primer proyecto de Blog
 
 Para empezar solo recuerda:
 
-1. Acceder al grupo en slack.
+1. Acceder al grupo en [slack](https://rubyonrailsespanol.slack.com/messages/general/), puedes solicitar una invitación [aquí](https://ror-es-invitation.herokuapp.com/).
 2. Editar el blog utilizando el IDE c9.
 
 ## Instrucciones
