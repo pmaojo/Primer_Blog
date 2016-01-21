@@ -1,3 +1,5 @@
+[![Throughput Graph](https://graphs.waffle.io/rubyespanol/Primer_Blog/throughput.svg)](https://waffle.io/rubyespanol/Primer_Blog/metrics)
+
 ## Introducción
 
 Bienvenido al primer proyecto del grupo [Ruby on Rails en español](https://www.facebook.com/groups/rubyonrailsespa/)
