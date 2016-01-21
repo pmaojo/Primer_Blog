@@ -1,4 +1,3 @@
-[![Throughput Graph](https://graphs.waffle.io/rubyespanol/Primer_Blog/throughput.svg)](https://waffle.io/rubyespanol/Primer_Blog/metrics)
 
 ## Introducción
 
@@ -20,6 +19,11 @@ Quienes no esten familiarizados con el uso de Git, pueden seguir las siguientes 
 6. Ahora puedes comparar los archivos y hacer un pull request al repositorio original.
 
 Happy coding!
+
+## Gráfico de avance
+
+[![Throughput Graph](https://graphs.waffle.io/rubyespanol/Primer_Blog/throughput.svg)](https://waffle.io/rubyespanol/Primer_Blog/metrics)
+
 
 ## Lista de Desarrolladores que contribuyeron en el proyecto
 
