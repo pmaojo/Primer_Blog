@@ -1,24 +1,17 @@
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+## Introducción
 
+Bienvenido al primer proyecto de Blog
 
-Welcome to your Rails project on Cloud9 IDE!
+Para empezar solo recuerda:
 
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://blog-grupo-ror-es-gbarzola1.c9users.io/).
+1. Acceder al grupo en slack.
+2. Editar el blog utilizando el IDE c9.
 
 Happy coding!
-The Cloud9 IDE team
 
+## Lista de Desarrolladores que contribuyeron en el proyecto
 
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+1. aaa
+2. bbb
+3. ccc
