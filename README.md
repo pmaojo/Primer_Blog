@@ -1,6 +1,6 @@
 ## Introducción
 
-Bienvenido al primer proyecto del [Ruby on Rails en español](https://www.facebook.com/groups/rubyonrailsespa/)
+Bienvenido al primer proyecto del grupo [Ruby on Rails en español](https://www.facebook.com/groups/rubyonrailsespa/)
 
 Para empezar solo recuerda:
 
