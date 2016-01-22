@@ -30,3 +30,5 @@ Happy coding!
 1. [Andrés](https://github.com/Oxyrus)
 2. [Gerardo Barzola](https://github.com/gbarzola)
 3. [Juan Roa](https://github.com/roadev)
+4. [Matías Muñoz](https://github.com/Writkas)
+5. [Mauricio Serna](https://github.com/FMauricioS)
