@@ -25,7 +25,7 @@ Happy coding!
 [![Throughput Graph](https://graphs.waffle.io/rubyespanol/Primer_Blog/throughput.svg)](https://waffle.io/rubyespanol/Primer_Blog/metrics)
 
 
-## Lista de Desarrolladores que contribuyeron en el proyecto
+## Lista de Desarrolladores :
 
 1. [Andrés](https://github.com/Oxyrus)
 2. [Gerardo Barzola](https://github.com/gbarzola)
