@@ -1,2 +1,24 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.blog-header {
+  border-bottom: 1px solid darkblue;
+}
+
+.blog-footer {
+  background-color: rgb(231, 231, 231);
+
+  p {
+    padding-top: 10px;
+    text-align: center;
+    margin: 0;
+
+    &:last-child {
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.blog-sidebar {
+  margin-top: 15px;
+}
