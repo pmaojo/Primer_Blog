@@ -1,2 +1,21 @@
-<h1>Page#contact</h1>
-<p>Find me in app/views/page/contact.html.erb</p>
+<div id="wrapper-contact">
+  <h1>Contactanos</h1>
+
+  <%= form_for :contact do |f| %>
+    <fieldset>
+      <p>Nombre:</p>
+      <%= f.text_field :name %>
+    </fieldset>
+    <fieldset>
+      <p>Email:</p>
+      <%= f.text_field :email %>
+    </fieldset>
+    <fieldset>
+      <p>Mensaje:</p>
+      <%= f.text_area :message %>
+    </fieldset>
+    <p>
+      <%= f.submit "Enviar"%>
+    </p>
+  <% end %>
+</div>
