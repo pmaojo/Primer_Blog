@@ -22,3 +22,7 @@
 
 .ruby-version
 .ruby-gemset
+
+# Ignore system files
+.directory
+.DS_Store
