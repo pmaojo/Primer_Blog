@@ -20,3 +20,5 @@
 *.swp
 *.swo
 
+.ruby-version
+.ruby-gemset
