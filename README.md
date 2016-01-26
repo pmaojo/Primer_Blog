@@ -21,6 +21,7 @@ Quienes no esten familiarizados con el uso de Git, pueden seguir las siguientes 
 Happy coding!
 
 ##Testing
+
 El framework de testing utilizado es [RSpec](https://github.com/rspec/rspec-rails) y [Capybara](https://github.com/jnicklas/capybara) para los tests de aceptación.
 
 1. Navega al directorio raíz del proyecto
@@ -68,6 +69,15 @@ rspec spec/features/posts/create_spec.rb:6
 ```
 1. Una vez termines tu funcionalidad, asegúrate de que todoso los tests pasen en verde antes de hacer un PR.
 
+##Versionamiento
+
+Seguimos el estandar [Semantic Versioning](http://semver.org/) (en lo posible)
+
+Dado un número de versión MAJOR.MINOR.PATCH, Incrementa:
+
+* MAJOR cuando haces cambios incompatibles con la API actual.
+* MINOR cuando se añaden nuevas funcionalidades compatibles con la API actual.
+* PATCH cuando se corrigen bugs o se hacen ajustes a la versión actual
 
 ## Gráfico de avance
 
