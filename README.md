@@ -81,7 +81,7 @@ Dado un número de versión MAJOR.MINOR.PATCH, Incrementa:
 
 ##Cambios
 
-Ver el (CHANGELOG.md)[https://github.com/rubyespanol/Primer_Blog/blob/master/CHANGELOG.md]
+Ver el [CHANGELOG.md](https://github.com/rubyespanol/Primer_Blog/blob/master/CHANGELOG.md)
 
 ## Gráfico de avance
 
