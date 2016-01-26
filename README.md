@@ -25,20 +25,25 @@ Happy coding!
 El framework de testing utilizado es [RSpec](https://github.com/rspec/rspec-rails) y [Capybara](https://github.com/jnicklas/capybara) para los tests de aceptación.
 
 1. Navega al directorio raíz del proyecto
-2. Si es la primera vez que abres el proyecto crea la base de datos de testing y de desarrollo:
-```
+1. Si es la primera vez que abres el proyecto crea la base de datos de testing y de desarrollo:
+
+```bash
 rake db:create
 rake db:create RAILS_ENV=test
 ```
-3. Y corre las migraciones:
-```
+
+1. Y corre las migraciones:
+
+```bash
 rake db:migrate
 rake db:migrate RAILS_ENV=test
 ```
-4. Siempre que hagas un cambio en la base de datos asegúrate de que corriste las migraciones en la base de datos de testing.
-5. Crea los tests de tu funcionalidad, luego crea la funcionalidad (TDD recomendado)
-6. La estructura de folders de testing es la siguiente:
-```
+
+1. Siempre que hagas un cambio en la base de datos asegúrate de que corriste las migraciones en la base de datos de testing.
+1. Crea los tests de tu funcionalidad, luego crea la funcionalidad (TDD recomendado)
+1. La estructura de folders de testing es la siguiente:
+
+```bash
 spec
 |----features
 	|----[modelo1]
@@ -53,21 +58,28 @@ spec
 |----support #Helpers de los diferentes módelos (código reutilizable en todos los tests)
 |----factories.rb #Fábricas de modelos para los tests
 ```
-7. Correr todos los tests
-```
+
+1. Correr todos los tests
+
+```bash
 rspec
 ```
-8. Correr Un test suite en particular
-```
+
+1. Correr Un test suite en particular
+
+```bash
 rspec [ruta/suite/modeloN.rb]
 ```
-9. Correr un Test case en particular
-```
+
+1. Correr un Test case en particular
+
+```bash
 rspec [ruta/suite/modeloN.rb:Número de la lídea en donde está el test case]
 Ejemplo:
 rspec spec/features/posts/create_spec.rb:6
 ```
-10. Una vez termines tu funcionalidad, asegúrate de que todoso los tests pasen en verde antes de hacer un PR.
+
+1. Una vez termines tu funcionalidad, asegúrate de que todoso los tests pasen en verde antes de hacer un PR.
 
 ##Versionamiento
 
