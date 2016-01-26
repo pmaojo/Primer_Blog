@@ -79,6 +79,10 @@ Dado un número de versión MAJOR.MINOR.PATCH, Incrementa:
 * MINOR cuando se añaden nuevas funcionalidades compatibles con la API actual.
 * PATCH cuando se corrigen bugs o se hacen ajustes a la versión actual
 
+##Cambios
+
+Ver el (CHANGELOG.md)[https://github.com/rubyespanol/Primer_Blog/blob/master/CHANGELOG.md]
+
 ## Gráfico de avance
 
 [![Throughput Graph](https://graphs.waffle.io/rubyespanol/Primer_Blog/throughput.svg)](https://waffle.io/rubyespanol/Primer_Blog/metrics)
