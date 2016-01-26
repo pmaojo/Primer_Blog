@@ -25,19 +25,19 @@ Happy coding!
 El framework de testing utilizado es [RSpec](https://github.com/rspec/rspec-rails) y [Capybara](https://github.com/jnicklas/capybara) para los tests de aceptación.
 
 1. Navega al directorio raíz del proyecto
-1. Si es la primera vez que abres el proyecto crea la base de datos de testing y de desarrollo:
+2. Si es la primera vez que abres el proyecto crea la base de datos de testing y de desarrollo:
 ```
 rake db:create
 rake db:create RAILS_ENV=test
 ```
-1. Y corre las migraciones:
+3. Y corre las migraciones:
 ```
 rake db:migrate
 rake db:migrate RAILS_ENV=test
 ```
-1. Siempre que hagas un cambio en la base de datos asegúrate de que corriste las migraciones en la base de datos de testing.
-1. Crea los tests de tu funcionalidad, luego crea la funcionalidad (TDD recomendado)
-1. La estructura de folders de testing es la siguiente:
+4. Siempre que hagas un cambio en la base de datos asegúrate de que corriste las migraciones en la base de datos de testing.
+5. Crea los tests de tu funcionalidad, luego crea la funcionalidad (TDD recomendado)
+6. La estructura de folders de testing es la siguiente:
 ```
 spec
 |----features
@@ -53,21 +53,21 @@ spec
 |----support #Helpers de los diferentes módelos (código reutilizable en todos los tests)
 |----factories.rb #Fábricas de modelos para los tests
 ```
-1. Correr todos los tests
+7. Correr todos los tests
 ```
 rspec
 ```
-1. Correr Un test suite en particular
+8. Correr Un test suite en particular
 ```
 rspec [ruta/suite/modeloN.rb]
 ```
-1. Correr un Test case en particular
+9. Correr un Test case en particular
 ```
 rspec [ruta/suite/modeloN.rb:Número de la lídea en donde está el test case]
 Ejemplo:
 rspec spec/features/posts/create_spec.rb:6
 ```
-1. Una vez termines tu funcionalidad, asegúrate de que todoso los tests pasen en verde antes de hacer un PR.
+10. Una vez termines tu funcionalidad, asegúrate de que todoso los tests pasen en verde antes de hacer un PR.
 
 ##Versionamiento
 
