@@ -16,10 +16,15 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   gem 'byebug'
-  gem 'rspec-rails'
   gem 'pry'
   gem 'pry-rails'
   gem 'awesome_print'
+  gem 'rspec-rails', '~> 3.0'
+end
+
+group :test do
+	gem 'capybara', '~> 2.6.0'
+	gem 'factory_girl_rails', '~> 4.5.0'
 end
 
 group :development do
