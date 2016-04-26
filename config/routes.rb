@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
-  
+
   root to: "pages#home"
 
   get '/home', to: 'pages#home',as: 'home'
   get '/about', to: 'pages#about', as: 'about'
   get '/contact', to: 'pages#contact', as: 'contact'
-  
+
   devise_for :users
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -35,11 +35,8 @@ Rails.application.routes.draw do
   #     end
   #   end
 
-  # Example resource route with sub-resources:
-  #   resources :products do
-  #     resources :comments, :sales
-  #     resource :seller
-  #   end
+
+resources :posts
 
   # Example resource route with more complex sub-resources:
   #   resources :products do
