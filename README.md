@@ -25,8 +25,9 @@ Happy coding!
 El framework de testing utilizado es [RSpec](https://github.com/rspec/rspec-rails) y [Capybara](https://github.com/jnicklas/capybara) para los tests de aceptación.
 
 1. Navega al directorio raíz del proyecto
-1. Si es la primera vez que abres el proyecto crea la base de datos de testing y de desarrollo:
+1. Si es la primera vez que abres el proyecto, instala las gemas, crea la base de datos de testing y de desarrollo:
 ```
+bundle install
 rake db:create
 rake db:create RAILS_ENV=test
 ```
