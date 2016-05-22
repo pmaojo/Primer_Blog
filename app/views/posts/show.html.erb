@@ -1,0 +1,17 @@
+<% content_for :head do %>
+<meta name="title" content="<%= @post.metatitulo %>">
+<meta name="description" content="<%= @post.metadescricion %>">
+<meta name="keywords" content="<%= @post.metapalabrasclave %>">
+<% end %>
+<div class="panel">
+  <div class="panel-heading panel-primary">
+    <small><%= l @post.created_at %>
+    <h1><%= @post.title %></h1>
+  </div>
+  <div class="panel-body">
+    <%= @post.description %>
+  </div>
+  <div class="panel-footer">
+    <% #fix categories %>
+  </div>
+</div>

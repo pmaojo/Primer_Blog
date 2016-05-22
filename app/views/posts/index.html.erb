@@ -1,0 +1,8 @@
+<%- @posts.each do |articulo| %>
+<div class="panel">
+<%= link_to articulo do %>
+<img src="http://placehold.it/500x200">
+<%= articulo.title %> 
+<% end %>
+</div>
+<% end %>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160426211704) do
+ActiveRecord::Schema.define(version: 20160522194808) do
 
   create_table "categories", force: :cascade do |t|
     t.string   "name"
@@ -56,8 +56,11 @@ ActiveRecord::Schema.define(version: 20160426211704) do
     t.text     "description"
     t.boolean  "status"
     t.integer  "user_id"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+    t.string   "metatitulo"
+    t.text     "metadescricion"
+    t.text     "metapalabrasclave"
   end
 
   add_index "posts", ["user_id"], name: "index_posts_on_user_id"
